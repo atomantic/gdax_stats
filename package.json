@@ -1,0 +1,28 @@
+{
+  "name": "gdax_stats",
+  "version": "1.0.0",
+  "description": "A CLI tool for getting current liquid GDAX holdings reports.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomantic/gdax_stats.git"
+  },
+  "author": "Adam Eivy",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.1.4",
+    "chalk": "1.1.3",
+    "cli-table": "0.3.1",
+    "gdax": "git@github.com:coinbase/gdax-node.git#master",
+    "lodash": "4.17.4",
+    "lowdb": "0.14.0",
+    "mathjs": "3.12.2",
+    "node-emoji": "1.4.3",
+    "xlsx-populate": "0.4.0",
+    "xlsx-template": "0.0.7",
+    "yargs": "6.6.0"
+  }
+}
