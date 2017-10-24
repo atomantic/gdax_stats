@@ -1,8 +1,11 @@
 {
   "name": "gdax_stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool for getting current liquid GDAX holdings reports.",
   "main": "index.js",
+  "bin": {
+    "gdax_stats": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
