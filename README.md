@@ -50,8 +50,6 @@ USD Holdings	BTC Holdings	LTC Holdings	ETH Holdings	BCH Holdings	Liquid USD	Liqu
 Adam Eivy is a software architect by day and a drawing dad by night.
 [follow him on the interwebs](http://adameivy.com)
 
-[![gratipay](https://img.shields.io/gratipay/antic.svg?style=flat)](https://gratipay.com/antic)
-
 ![follow](https://img.shields.io/twitter/follow/antic.svg?style=social&label=Follow)
 
 [![](https://www.coinbase.com/assets/buttons/donation_small-c2401ae30dd0ad6018deadfc4bb506bf56b5b7062738ee449bee97c4e80ec70c.png)](https://www.coinbase.com/checkouts/62b15a45f11194f8555884e200024616)
