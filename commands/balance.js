@@ -21,6 +21,9 @@ exports.handler = function () {
     },
     function(cb){
       getTicker('ltc', cb)
+    },
+    function(cb){
+      getTicker('bch', cb)
     }],
     function(err){
       if(err) throw err
