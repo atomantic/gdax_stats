@@ -10,7 +10,7 @@ If you don't yet have a GDAX trading account, you can sign up on [Coinbase][Coin
 * setup a [GDAX](https://www.gdax.com) account (Login with Coinbase)
 * Get a [Coinbase GDAX][GDAX] API key/secret (view only, and restrict to your IP address)
 * Set `GDAX_KEY`, `GDAX_SECRET`, `GDAX_PASS` as env vars
-* Set external (offline wallet) numbers for `EXT_BTC`, `EXT_BCH`, `EXT_LTC`, `EXT_ETH`:
+* Set external (offline wallet) numbers for `EXT_BTC`, `EXT_BCH`, `EXT_ETC`, `EXT_LTC`, `EXT_ETH`:
     * e.g. `export EXT_BTC=1` (if you have 1 BTC in an offline wallet or another exchange you want to track)
 * install Node.js (recommend using [NVM](https://github.com/creationix/nvm) at latest version: 10.0.0)
 * Install: `npm i -g gdax_stats`
@@ -18,10 +18,11 @@ If you don't yet have a GDAX trading account, you can sign up on [Coinbase][Coin
 
 ```
 ⚡️   \[._.]/ - getting balances
-🕐   btc💰  9254.00 <- 0.01 -> 🏷  9254.01 median: 9254.01 price: 9254
-🕑   bch💰  1379.79 <- 0.13 -> 🏷  1379.92 median: 1379.86 price: 1380
-🕒   ltc💰  150.10 <- 0.01 -> 🏷  150.11 median: 150.11 price: 150
-🕓   eth💰  674.00 <- 0.01 -> 🏷  674.01 median: 674 price: 674
+🕐   etc💰  NaN <- NaN -> 🏷  NaN median: NaN price: 0
+🕑   ltc💰  67.01 <- 0.01 -> 🏷  67.02 median: 67.02 price: 67
+🕒   bch💰  644.21 <- 0.01 -> 🏷  644.22 median: 644.22 price: 644
+🕓   eth💰  377.30 <- 0.01 -> 🏷  377.31 median: 377.31 price: 377
+🕔   btc💰  6590.77 <- 0.01 -> 🏷  6590.78 median: 6590.77 price: 6590
 offline holdings:
 ┌───────────────────────┬──────────────────────┬─────────────────-─┬──────────────────────┐
 │ BTC@ $9254.00 = $0.00 │ LTC@ $150.10 = $0.00 │ ETH@ $674 = $0.00 │ BCH@ $1379.79 = $0.0 │

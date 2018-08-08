@@ -11,5 +11,6 @@ module.exports = {
       feed: 'wss://ws-feed-public.sandbox.gdax.com',
       fix: 'https://fix-public.sandbox.gdax.com'
     }
-  }
+  },
+  currency: ['USD', 'BCH', 'BTC', 'ETC', 'ETH', 'LTC']
 }
