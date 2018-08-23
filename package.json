@@ -1,6 +1,6 @@
 {
   "name": "gdax_stats",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A CLI tool for getting current liquid GDAX holdings reports.",
   "main": "index.js",
   "bin": {
