@@ -12,5 +12,5 @@ module.exports = {
       fix: 'https://fix-public.sandbox.gdax.com'
     }
   },
-  currency: ['USD', 'BCH', 'BTC', 'ETC', 'ETH', 'LTC']
+  currency: ['USD', 'BCH', 'BTC', 'ETC', 'ETH', 'LTC', 'ZEC', 'ZRX']
 }
