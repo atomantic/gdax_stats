@@ -13,7 +13,7 @@ exports.desc = emoji.get('scales') + '  balance'
 exports.builder = {}
 exports.handler = function () {
   log.action('\\[._.]/ - getting balances')
-  async.parallel(
+  async.series( // can't do this in parallel or we exhause the rate limit
     config.currency.map(function(currency){
       if(currency==='USD'){
         return function(cb){cb()};
