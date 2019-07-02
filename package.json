@@ -1,6 +1,6 @@
 {
   "name": "gdax_stats",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "A CLI tool for getting current liquid Coinbase Pro (formerly GDAX) holdings reports.",
   "main": "index.js",
   "bin": {
